@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: grey;
+}
+
+main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    background-color: black;
+    color: orange;
+    height: 50px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #Daa520;
+}
+
+.sobreMim{
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 40px;
+    text-indent: 5rem;
+    text-align: justify;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.imagemFoto{
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+}
+
+.projetos{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 250px;
+}
+
+.imagemProjeto{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 250px;
+    justify-content:space-evenly ;
+    width: 250px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.imagemContatos{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 250px;
+    justify-content:space-evenly ;
+    width: 250px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+#projetos{
+    height: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.726);
+
+}
+
+#sobreMim{
+    height: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.726);
+    background-image: url("Img/senaizinho.PNG");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+#contatos{
+    height: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.726);
+}
